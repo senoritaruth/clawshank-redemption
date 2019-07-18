@@ -22,8 +22,8 @@
 	<div>
 <h2>Persona</h2>
 <p>Name: Cecy</p>
-<p>Description: Cecy is my niece. As an avid cat-lover, she enjoys spending time with my two cats. Unfortunately, she doesn't get to do so as much as she would like. She's about to start high school. She's a very skilled novice user of the internet, and uses various apps and websites to post her photos and music. I hope she will visit the Clawshank Redemption site any time she's feeling stressed and needs to have a laugh and feel happy.</p>
-<p>Goals: I hope to share the story of Greyson and Cally to spread a bit of cheer and practice my storytelling skills.</p>
+<p>Description: Cecy is my niece. As an avid cat-lover, she enjoys spending time with my two cats. Unfortunately, she doesn't get to do so as often as she would like. She's about to start high school after a rough experience in middle school. She's a very skilled novice user of the internet, and uses various apps and websites to post her photos and music. I hope she will visit the Clawshank Redemption site any time she's feeling stressed and needs to have a laugh and feel the warm happy happy fuzzies that my sweet babies spread.</p>
+<p>Goals: I hope to share the story of Greyson and Cally to spread a bit of cheer with my family.</p>
 <p>Frustrations: Cecy faces a lot of challenges in life, and often finds solace online. She's very often isolated and feels misunderstood.</p>
 	</div>
 </body>
