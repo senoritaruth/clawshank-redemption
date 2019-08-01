@@ -14,6 +14,9 @@
 		<h2>The rest of the story</h2>
 		<p>Why do we call the cats Clawshank Redemption? This is the part of the webpage where we find out how Cally has changed her older brother from a retiring gentleman to a spry guy with a second lease on life.</p>
 		<br>
+		<h2>Social Media</h2>
+		<p>Every modern cat has social media! You'll be able to follow their adventures on Twitter and Instagram via the social media links.</p>
+		<br>
 		<h2>Contact form</h2>
-		<p></p>
+		<p>Do you have treats for Cally and Greyson? You can definitely contact them!</p>
 	</body>
