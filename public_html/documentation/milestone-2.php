@@ -19,4 +19,9 @@
 		<br>
 		<h2>Contact form</h2>
 		<p>Do you have treats for Cally and Greyson? You can definitely contact them!</p>
+		<br>
+		<h3>Desktop Wireframe</h3>
+		<img src="desktop%20wireframe%20pwp.png" alt="desktop wireframe">
+		<h3>Mobile Wireframe</h3>
+		<img src="mobile%20wireframe%20pwp.png" alt="mobile wireframe">
 	</body>
