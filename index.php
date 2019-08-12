@@ -89,6 +89,10 @@
 					<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
 				</div>
 			</div>
+			<div class="container">
+				<h1>...The rest of the story</h1>
+				<p>I'm Greyson. Since 2013, I've enjoyed the near-total attention of my parents. I love licking ice cubes and staring out the window. Before last summer, I could lay anywhere without the risk of being pounced on. Life was good, quiet. I had given up hunting cockroaches years before, a young cat's game. Then suddenly, a streak of orange appeared. She was so tiny, it was hard to keep track of her. She smelled familiar enough, but I had never seen her before. What had happened to the quiet life of a retiring bachelor cat? Suddenly, I was never alone. I had a tiny maw chewing on my head at all times of day and night. She wanted to fight, but I knew I could crush her easily with my giant grey paw. But I didn't want to. Somehow, the orange streak grew on me and now we play and nap together. She's shown me some bad habits and I've shown her the lay of the house. One day, we figured out how to escape. It was the greatest adventure I'd had in a long while.</p>
+			</div>
 		</nav>
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
