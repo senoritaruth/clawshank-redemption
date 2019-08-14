@@ -143,7 +143,7 @@
 					</div>
 
 					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+					<div class="g-recaptcha" data-sitekey="6LfFCLMUAAAAAN4tNLkZGmfqwncIGfCFOhmde9Ds"></div>
 
 					<button class="btn btn-success" type="submit"><i class="send-button"></i> Send</button>
 					<button class="btn btn-warning" type="reset"><i class="reset-button"></i> Reset</button>
