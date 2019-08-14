@@ -26,10 +26,11 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link active" href="#">Welcome <span class="sr-only">(current)</span></a>
 					<a class="nav-item nav-link" href="#">Photos</a>
 					<a class="nav-item nav-link" href="#">The rest of the story</a>
-					<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+					<a class="nav-item nav-link" href="#">Social Media</a>
+					<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
 				</div>
 			</div>
 		</nav>
