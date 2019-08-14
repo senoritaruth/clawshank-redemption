@@ -106,13 +106,13 @@
 			<h2>Do you have a treat? Contact us!</h2>
 				<form id="clawshank-redemption" action="../php/" method="post">
 					<div class="form-group">
-						<label for="CR-Contact">Name <span class="text-danger">*</span></label>
+						<label for="name">Name <span class="text-danger">*</span></label>
 						<div class="input-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"></span>
 								<i class="User" aria-hidden="true"></i>
 							</div>
-							<input type="text" class="form-control" id="CR-Contact" name="CR-Contact" placeholder="Name">
+							<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 						</div>
 					</div>
 					<div class="form-group">
@@ -120,7 +120,7 @@
 						<div class="input-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"></span>
-								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<i class="email" aria-hidden="true"></i>
 							</div>
 							<input type="email" class="form-control" id="UserEmail" name="UserEmail" placeholder="Email">
 						</div>
