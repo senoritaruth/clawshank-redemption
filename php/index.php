@@ -75,7 +75,7 @@ try {
 	/**
 	 * Send the Email via the Mailgun API. The Mailgun API will handle the actual sending of the email.
 	 * Another option is to use smtp to have your server to send the email. This requires setting up an email server.
-	 * With containerized solutions it is easier to have a third party handle the actual  sending of email.
+	 * With containerized solutions it is easier to have a third party handle the actual sending of email.
 	 *
 	 * The $mailgunApiKey and $mailgunDomain is set in mail-config.php
 	 */

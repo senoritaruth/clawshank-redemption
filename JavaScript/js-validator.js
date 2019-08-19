@@ -14,10 +14,10 @@ $(document).ready(function(){
 	 **/
 
 	/* begin validate function here */
-	$("#clawshank-redemption-treat-us").validate({
 
 		// setup handling of form errors
-		debug: true,
+		debug: true,	$("#clawshank-redemption-treat-us").validate({
+
 		errorClass: "alert alert-danger",
 		errorLabelContainer: "#output-area",
 		errorElement: "div",
