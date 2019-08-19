@@ -102,55 +102,56 @@
 			</div>
 			</div>
 
+			<div id = OrangeHeader>
 			<div class = container>
-			<h2>Do you have a treat? Contact us!</h2>
-				<form id="clawshank-redemption" action="../php/" method="post">
+			<h2>Do you have a treat for us? Contact us!</h2>
+				<form id="clawshank-redemption-treat-us" action="php/mailer.php" method="post">
 					<div class="form-group">
-						<label for="name">Name <span class="text-danger">*</span></label>
+						<label for="CRName">Name <span class="text-danger">*</span></label>
 						<div class="input-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"></span>
-								<i class="User" aria-hidden="true"></i>
+								<i class="Name" aria-hidden="true"></i>
 							</div>
-							<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+							<input type="text" class="form-control" id="CRName" name="CRName" placeholder="Name">
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="UserEmail">Email <span class="text-danger">*</span></label>
+						<label for="CREmail">Email <span class="text-danger">*</span></label>
 						<div class="input-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"></span>
-								<i class="email" aria-hidden="true"></i>
+								<i class="Email" aria-hidden="true"></i>
 							</div>
-							<input type="email" class="form-control" id="UserEmail" name="UserEmail" placeholder="Email">
+							<input type="email" class="form-control" id="CREmail" name="CREmail" placeholder="Email">
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="Subject"></label>
+						<label for="CRSubject">Subject <span class="text-danger">*</span></label>
 						<div class="input-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"></span>
-								<i class="pencil" aria-hidden="true"></i>
+								<i class="Subject" aria-hidden="true"></i>
 							</div>
-							<input type="text" class="form-control" id="Subject" name="Subject" placeholder="">
+							<input type="text" class="form-control" id="CRSubject" name="CRSubject" placeholder="Subject">
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="SubjectMessage">Message <span class="text-danger">*</span></label>
+						<label for="CRMessage">Message <span class="text-danger">*</span></label>
 						<div class="input-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"></span>
-								<i class="comment" aria-hidden="true"></i>
+								<i class="Message" aria-hidden="true"></i>
 							</div>
-							<textarea class="form-control" rows="5" id="SubjectMessage" name="SubjectMessage" placeholder="2000 characters max"></textarea>
+							<textarea class="form-control" rows="5" id="CRMessage" name="CRMessage" placeholder="2000 characters max"></textarea>
 						</div>
 					</div>
 
 					<!-- reCAPTCHA -->
 					<div class="g-recaptcha" data-sitekey="6LfFCLMUAAAAAN4tNLkZGmfqwncIGfCFOhmde9Ds"></div>
 
-					<button class="btn btn-success" type="submit"><i class="send-button"></i> Send</button>
-					<button class="btn btn-warning" type="reset"><i class="reset-button"></i> Reset</button>
+					<button class="btn btn-success" type="submit"><i class="Submit"></i> Send</button>
+					<button class="btn btn-warning" type="reset"><i class="Reset"></i> Reset</button>
 				</form>
 
 				<!--empty area for form error/success output-->
@@ -160,6 +161,7 @@
 					</div>
 				</div>
 				</div>
+			</div>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

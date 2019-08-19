@@ -1,0 +1,55 @@
+<form id="clawshank-redemption-treat-us" action="php/mailer.php" method="post">
+	<div class="form-group">
+		<label for="CRName">Name <span class="text-danger">*</span></label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="Name" aria-hidden="true"></i>
+			</div>
+			<input type="text" class="form-control" id="CRName" name="CRName" placeholder="Name">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="CREmail">Email <span class="text-danger">*</span></label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="Email" aria-hidden="true"></i>
+			</div>
+			<input type="email" class="form-control" id="CREmail" name="CREmail" placeholder="Email">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="CRSubject">Subject <span class="text-danger">*</span></label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="Subject" aria-hidden="true"></i>
+			</div>
+			<input type="text" class="form-control" id="CRSubject" name="CRSubject" placeholder="Subject">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="CRMessage">Message <span class="text-danger">*</span></label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="Message" aria-hidden="true"></i>
+			</div>
+			<textarea class="form-control" rows="5" id="CRMessage" name="CRMessage" placeholder="2000 characters max"></textarea>
+		</div>
+	</div>
+
+	<!-- reCAPTCHA -->
+	<div class="g-recaptcha" data-sitekey="6LfFCLMUAAAAAN4tNLkZGmfqwncIGfCFOhmde9Ds"></div>
+
+	<button class="btn btn-success" type="submit"><i class="Submit"></i> Send</button>
+	<button class="btn btn-warning" type="reset"><i class="Reset"></i> Reset</button>
+</form>
+
+<!--empty area for form error/success output-->
+<div class="row">
+	<div class="col-xs-12">
+		<div id="output-area"></div>
+	</div>
+</div>
