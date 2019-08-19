@@ -106,7 +106,7 @@
 			<div class = container>
 			<h2>Do you have a treat for us? Contact us!</h2>
 
-				<form id="clawshank-redemption-treat-us" action="php/mailer.php" method="post">
+				<form id="clawshank-redemption-treat-us" action="php/index.php" method="post">
 					<div class="form-group">
 						<label for="CRName">Name <span class="text-danger">*</span></label>
 						<div class="input-group">
