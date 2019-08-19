@@ -14,7 +14,7 @@ $(document).ready(function(){
 	 **/
 
 	/* begin validate function here */
-	$("#clawshank-redemption").validate({
+	$("#clawshank-redemption-treat-us").validate({
 
 		// setup handling of form errors
 		debug: true,
