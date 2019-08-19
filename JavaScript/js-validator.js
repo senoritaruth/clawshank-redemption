@@ -61,9 +61,9 @@ $(document).ready(function(){
 
 		// AJAX submit the form data to back end if rules pass
 		submitHandler: function(form) {
-			$("#clawshank-redemption").ajaxSubmit({
+			$("#clawshank-redemption-treat-us").ajaxSubmit({
 				type: "POST",
-				url: $("#clawshank-redemption").attr("action"),
+				url: $("#clawshank-redemption-treat-us").attr("action"),
 
 				success: function(ajaxOutput) {
 					// clear the output area's formatting
@@ -74,7 +74,7 @@ $(document).ready(function(){
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("#clawshank-redemption")[0].reset();
+						$("#clawshank-redemption-treat-us")[0].reset();
 					}
 				}
 			})
