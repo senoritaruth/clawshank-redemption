@@ -16,8 +16,9 @@ $(document).ready(function(){
 	/* begin validate function here */
 
 		// setup handling of form errors
-		debug: true,	$("#clawshank-redemption-treat-us").validate({
+		$("#clawshank-redemption-treat-us").validate({
 
+		debug: true,
 		errorClass: "alert alert-danger",
 		errorLabelContainer: "#output-area",
 		errorElement: "div",
@@ -25,17 +26,17 @@ $(document).ready(function(){
 		// rules here define what is good or bad input
 		// each rule starts with the form input element's NAME attribute
 		rules: {
-			name: {
+			CRName: {
 				required: true
 			},
-			email: {
+			CREmail: {
 				email: true,
 				required: true
 			},
-			subject: {
+			CRSubject: {
 				required: true,
 			},
-			message: {
+			CRMessage: {
 				required: true,
 				maxlength: 2000
 			}
@@ -43,17 +44,17 @@ $(document).ready(function(){
 
 		// error messages to display to the end user when rules above don't pass
 		messages: {
-			name: {
+			CRName: {
 				required: "Please enter your name."
 			},
-			email: {
+			CREmail: {
 				email: "Please enter a valid email address.",
 				required: "Please enter a valid email address."
 			},
-			subject: {
+			CRSubject: {
 				subject: "Please enter a subject."
 			},
-			message: {
+			CRMessage: {
 				required: "Please enter a message.",
 				maxlength: "2000 characters max."
 			}

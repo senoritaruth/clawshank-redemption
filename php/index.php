@@ -30,15 +30,15 @@ try {
 	}
 
 	/**
-	 * Sanitize the inputs from the form: name, email, subject, and message.
+	 * Sanitize the inputs from the form: CRName, CREmail, subject, and message.
 	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,
 	 * so we're using the $_POST superglobal.
 	 **/
 
-	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
-	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$name = filter_input(INPUT_POST, "CRName", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$CREmail = filter_input(INPUT_POST, "CREmail", FILTER_SANITIZE_EMAIL);
+	$CRSubject = filter_input(INPUT_POST, "CRSubject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$CRMessage = filter_input(INPUT_POST, "CRMessage", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 
 
@@ -47,9 +47,9 @@ try {
 	$swiftMessage = new Swift_Message();
 	/**
 	 * Attach the sender to the message.
-	 * This takes the form of an associative array where $email is the key for the real name.
+	 * This takes the form of an associative array where $CREmail is the key for the real name.
 	 **/
-	$swiftMessage->setFrom([$email => $name]);
+	$swiftMessage->setFrom([$CREmail => $CRName]);
 	/**
 	 * Attach the recipients to the message.
 	 * $MAIL_RECIPIENTS is set in mail-config.php
@@ -57,7 +57,7 @@ try {
 	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
 	// attach the subject line to the message
-	$swiftMessage->setSubject($subject);
+	$swiftMessage->setSubject($CRSubject);
 	/**
 	 * Attach the actual message to the message.
 	 *
@@ -69,8 +69,8 @@ try {
 	 * this lets users who aren't viewing HTML content in Emails still access your
 	 * links.
 	 **/
-	$swiftMessage->setBody($message, "text/html");
-	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
+	$swiftMessage->setBody($CRMessage, "text/html");
+	$swiftMessage->addPart(html_entity_decode($CRMessage), "text/plain");
 
 	/**
 	 * Send the Email via the Mailgun API. The Mailgun API will handle the actual sending of the email.
