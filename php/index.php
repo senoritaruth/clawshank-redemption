@@ -35,7 +35,7 @@ try {
 	 * so we're using the $_POST superglobal.
 	 **/
 
-	$name = filter_input(INPUT_POST, "CRName", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$CRName = filter_input(INPUT_POST, "CRName", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$CREmail = filter_input(INPUT_POST, "CREmail", FILTER_SANITIZE_EMAIL);
 	$CRSubject = filter_input(INPUT_POST, "CRSubject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$CRMessage = filter_input(INPUT_POST, "CRMessage", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);

@@ -36,7 +36,7 @@ $(document).ready(function(){
 			CRSubject: {
 				required: true,
 			},
-			CRMessage: {
+			CRMessage	: {
 				required: true,
 				maxlength: 2000
 			}
@@ -52,7 +52,7 @@ $(document).ready(function(){
 				required: "Please enter a valid email address."
 			},
 			CRSubject: {
-				subject: "Please enter a subject."
+				required: "Please enter a subject."
 			},
 			CRMessage: {
 				required: "Please enter a message.",
