@@ -37,6 +37,13 @@
 }
 
 #jumbotron {
-	color: blue;
+	background-image: url("images/IMG_20190126_025728514") !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
+.wrapper {
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
 }
