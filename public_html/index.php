@@ -75,7 +75,7 @@
 						<a class="collapsed" data-toggle="collapse" href="#collapseSummary" aria-expanded="false" aria-controls="collapseSummary"></a>
 					</div></div></div>
 					</div>
-		<div class = container>
+		<div class = container-fluid>
 			<div class="row justify-content-center">
 			<div class="col-md-10">
 		<div class = "GreyHeader">
@@ -96,7 +96,7 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="/public_html/images/IMG_5535.jpeg" class="d-block w-100" alt="Drinking tuna juice for the first time.">
+						<img src="images/IMG_5535.jpeg" class="d-block w-100" alt="Drinking tuna juice for the first time.">
 						<div class="carousel-caption d-none d-md-block">
 							<h5>Second slide label</h5>
 							<p>My parents didn't feed me treats very much last year. This is my first time drinking tuna juice, just a few days ago!</p>
