@@ -39,6 +39,8 @@
 		<title>Clawshank Redemption: The Saga of Greyson & Cally</title>
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="#">Clawshank Redemption</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -136,9 +138,14 @@
 				</div></div></div>
 		</div>
 			<div class = container>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-10">
 			<div class = GreyHeader>
 			<h2>You can follow our adventures too!</h2>
 				<p>Add and follow us on social media! </p>
+				<div class="fb-like" data-href="https://www.facebook.com/ClawshankRedemption" data-width="100" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+				<a href="https://twitter.com/clawshankr?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @clawshankr</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 				<script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
 				<link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
 				<ul class="juicer-feed" data-feed-id="clawshankredemption"><h1 class="referral"><a href="https://www.juicer.io">Powered by Juicer.io</a></h1></ul>
@@ -218,4 +225,5 @@
 		</div>
 		<br>
 		<footer class="page-footer">Do you like this website? Contact our mom, she's really good at this! senoritaruth@gmail.com</footer>
+
 	</body>

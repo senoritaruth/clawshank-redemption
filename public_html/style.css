@@ -24,22 +24,19 @@
 	content: '- Read Less';
 }
 
-#OrangeHeader {
+.OrangeHeader {
 	color: darkorange;
 }
 
-#GreyHeader {
+.GreyHeader {
 	color: darkgrey;
 }
 
-#Container {
-	background-color: lightblue;
-}
-
-#jumbotron {
+.jumbotron {
 	background-image: url("images/IMG_20190126_025728514") !important;
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: white;
 }
 
 .wrapper {
