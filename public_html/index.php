@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css"/>
-		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" rossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -20,6 +20,13 @@
 		<script src="https://kit.fontawesome.com/258ed8e229.js"></script>
 		<!-- JavaScript Form Validator -->
 		<script src="../JavaScript/js-validator.js"></script>
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 		<title>Clawshank Redemption: The Saga of Greyson & Cally</title>
 	</head>
 	<body>
@@ -42,7 +49,7 @@
 		</nav>
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<div class="background-image">
+				<div class="background-image" >
 				<h1 class="display-4">Clawshank Redemption</h1>
 				<p class="lead">The Saga of Greyson & Cally</p>
 				</div>
@@ -52,7 +59,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">
 					<h2 id="welcome">Welcome to our little home</h2>
-						<p>Last May, my foster mom found me on a movie set with my tiny little brother and sisters. For whatever reason, our mom didn't return after twelve hours and my foster mom decided to take us home instead of leaving us on the sand dune overnight. She became our foster mom and we lived at her house for the next few weeks. Shortly after she found us, we took us on a field trip to he son's graduation party. We had to stay in the back room, in a drawer filled with soft blankets. That's where this lady picked me up and looked me in my tiny, unfocused eyeballs. Her face lit up, and when she went to snuggle me, I licked her lips. A few weeks after that, she picked me up from the pound, and I went home with my new family.</p>
+						<p>Last May, my foster mom found me on a movie set with my tiny little brother and sisters. For whatever reason, our mom didn't return after twelve hours and my foster mom decided to take us home instead of leaving us on the sand dune overnight. She took care of us we lived at her house for the next few weeks. Shortly after she found us, we took us on a field trip to he son's graduation party. We had to stay in the back room, in a drawer filled with soft blankets. That's where this lady picked me up and looked me in my tiny, unfocused eyeballs. Her face lit up, and when she went to snuggle me, I licked her lips. A few weeks after that, she picked me up from the pound, and I went home with my new family.</p>
 						<p>I left my brother and sisters, but I also gained a new brother. He's an older gentleman, very kind and sweet. However, he needed a bit more excitement in his life. After I joined the household, he learned a bunch of new fun behaviors and some bad habits. I've never had more fun in my life.</p>
 				</div>
 			</div>
@@ -61,11 +68,13 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">
 					<h2 id="photos">Check out some of our favorite memories</h2>
-					<div id="CRCarousel" class="carousel slide" data-ride="carousel">
+					<div id="CRCarousel" class="carousel slide" data-ride="carousel" class="col-md-10">
 						<ol class="carousel-indicators">
 							<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
 							<li data-target="#carouselIndicators" data-slide-to="1"></li>
 							<li data-target="#carouselIndicators" data-slide-to="2"></li>
+							<li data-target="#carouselIndicators" data-slide-to="3"></li>
+							<li data-target="#carouselIndicators" data-slide-to="4"></li>
 						</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
@@ -74,9 +83,15 @@
 								<div class="carousel-item">
 									<img class="d-block w-100" src="images/CatsOnATree.jpeg" alt="My brother was really excited when I came home.">
 								</div>
-							<div class="carousel-item">
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/CallyAndIvan.jpeg" alt="My other brother likes to cuddle me.">
+								</div>
+								<div class="carousel-item">
 									<img class="d-block w-100" src="images/GreysonDrawing.jpeg" alt="My mom likes to draw my brother.">
-							</div>
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="images/GreysonPopsTheScreen.jpeg" alt="This is how we escaped!">
+								</div>
 							</div>
 								<a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
 									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -94,7 +109,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">
 					<h2 id="the-rest">...The rest of the story</h2>
-						<p>I'm Greyson. Since 2013, I've enjoyed the near-total attention of my parents. I love licking ice cubes and staring out the window. Before last summer, I could lay anywhere in the house without the risk of being pounced on. Life was good, quiet. I had given up hunting cockroaches years before, a young cat's game. Then suddenly, a streak of orange appeared. She was so tiny, it was hard to keep track of her. She smelled familiar enough, but I had never seen her before. What had happened to the quiet life of a retiring bachelor cat? Suddenly, I was never alone. I had a tiny maw chewing on my head at all times of day and night. She wanted to fight, but I knew I could crush her easily with my giant grey paw. I didn't want to.</p>
+						<p>I'm Greyson. Since 2013, I've enjoyed the near-total attention of my parents. I love licking ice cubes and staring out the window. Before last summer, I could lay anywhere in the house without the risk of being pounced on. Life was good, quiet. I had given up hunting cockroaches years before, a young cat's game. Then suddenly, a streak of orange appeared. She was so tiny, it was hard to keep track of her. She smelled familiar enough, but I had never seen her before. What had happened to the quiet life of a retiring bachelor cat? Suddenly, I was never alone. I had a tiny maw chewing on my head at all times of day and night. She wanted to fight, but I knew I could crush her easily with my giant grey paw. I didn't want to. From that uneasy beginning, I gained a new friend.</p>
 						<p>Somehow, the orange streak grew on me and now we play and nap together. She's shown me some bad habits and I've shown her the lay of the house. One day, we figured out how to escape. It was the greatest adventure I'd had in a long while.</p>
 				</div>
 			</div>
@@ -103,7 +118,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">
 					<h2 id="social-media">You can follow our adventures too!</h2>
-						<p>Add and follow us on social media! </p>
+						<p>Add us on social media! </p>
 							<div class="fb-like" data-href="https://www.facebook.com/ClawshankRedemption" data-width="100" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 									<a href="https://twitter.com/clawshankr?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @clawshankr</a>
 										<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
