@@ -24,27 +24,13 @@
 	content: '- Read Less';
 }
 
-.OrangeHeader {
-	color: darkorange;
-}
-
-.GreyHeader {
-	color: darkgrey;
-}
-
 .jumbotron {
-	background-image: url("images/IMG_20190126_025728514") !important;
+	background-image: url("images/JumbotronImg.jpeg") !important;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
 }
 
-.wrapper {
-	min-height: 100%;
-	display: grid;
-	grid-template-rows: auto 1fr auto;
-}
-
-.footer {
-	background-color: darkorange;
+#CRCarousel {
+	width: 60% !important;
 }
