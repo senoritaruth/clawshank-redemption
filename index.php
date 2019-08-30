@@ -61,8 +61,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-10">
 					<h2 id="photos">Check out some of our favorite memories</h2>
-					<div id="CRCarousel" class="carousel slide" data-ride="carousel">
-						<div class="col-md-10">
+					<div id="CRCarousel" class="carousel slide" data-ride="carousel" class="col-md-10">
 						<ol class="carousel-indicators">
 							<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
 							<li data-target="#carouselIndicators" data-slide-to="1"></li>
@@ -95,8 +94,7 @@
 									<span class="carousel-control-next-icon" aria-hidden="true"></span>
 									<span class="sr-only">Next</span>
 								</a>
-							</div>
-						</div>
+					</div>
 				</div>
 			</div>
 		</div>
